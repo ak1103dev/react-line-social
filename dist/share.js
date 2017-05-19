@@ -57,7 +57,7 @@ var Share = function (_React$Component) {
 
       return _react2.default.createElement('div', {
         style: Object.assign({}, { display: 'none' }, style),
-        className: 'line-it-button' + (className ? '' : ' ' + className),
+        className: 'line-it-button' + (className ? ' ' + className : ''),
         'data-lang': _utils2.default.localeToLang(locale),
         'data-type': 'share-a',
         'data-url': url });
